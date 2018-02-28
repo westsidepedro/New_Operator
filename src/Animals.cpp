@@ -27,7 +27,7 @@ Animals::~Animals()
 
 void Animals::setName(string inputName)
     {
-    this->name = inputName;
+    this->name = inputName;	// name is in the private area
     }
 
 void Animals::speak() const
